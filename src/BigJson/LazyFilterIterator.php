@@ -1,6 +1,6 @@
 <?php
 
-namespace Elminson\ReadBigJson;
+namespace Elminson\BigJson;
 
 use FilterIterator;
 use Iterator;

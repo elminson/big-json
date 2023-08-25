@@ -1,9 +1,9 @@
 <?php
 
-namespace Elminson\ReadBigJson;
+namespace Elminson\BigJson;
 use Iterator;
 
-class BigJsonFileGenerator implements Iterator {
+class FileGenerator implements Iterator {
 	public $fileHandle;
 	private $currentPosition = 0;
 	private $totalItems;

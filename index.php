@@ -1,7 +1,7 @@
 <?php
 
-use Elminson\ReadBigJson\BigJsonFileGenerator;
-use Elminson\ReadBigJson\BigJsonFileReader;
+use Elminson\BigJson\FileGenerator as BigJsonFileGenerator;
+use Elminson\BigJson\FileReader as BigJsonFileReader;
 
 require_once 'vendor/autoload.php';
 

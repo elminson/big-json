@@ -28,12 +28,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Elminson\\ReadBigJson\\": "src"
+      "Elminson\\BigJson\\": "src\\BigJson"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Elminson\\ReadBigJson\\Tests\\": "tests"
+      "Elminson\\BigJson\\Tests\\": "tests"
     }
   },
   "scripts": {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Elminson\ReadBigJson;
+namespace Elminson\BigJson;
 
 use IteratorAggregate;
 use Traversable;
 
-class BigJsonFileReader implements IteratorAggregate
+class FileReader implements IteratorAggregate
 {
 
 	private $fileName;
