@@ -1,0 +1,47 @@
+{
+  "name": "elminson/big-json",
+  "description": "Read and write big JSON files",
+  "keywords": [
+    "elminsone",
+    "big-json"
+  ],
+  "homepage": "https://github.com/elminson/big-json",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Elminson De Oleo Baez",
+      "email": "edeoleo@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "halaxa/json-machine": "^1.1",
+    "illuminate/support": "^6.3|^7.0|^8.0",
+    "jajo/jsondb": "^3.0",
+    "spatie/temporary-directory": "^2.0"
+  },
+  "require-dev": {
+    "phpunit/php-code-coverage": "^9.2",
+    "phpunit/phpunit": "^9.0",
+    "spatie/phpunit-snapshot-assertions": "^4.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Elminson\\ReadBigJson\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Elminson\\ReadBigJson\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes",
+    "test": "vendor/bin/phpunit",
+    "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
